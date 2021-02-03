@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>CP3-CSS</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,900&display=swap"
+    rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <style>
+    #customers {
+      font-family: 'Roboto', sans-serif;
+      text-align: center;
+      border-collapse: collapse;
+      width: 100%;
+      color: #161d6f;
+    }
+
+    #customers td,
+    #customers th {
+      border: 3px solid #ddd;
+      padding: 8px;
+      font-size: 18px;
+    }
+
+
+    #customers th {
+      padding-top: 12px;
+      padding-bottom: 12px;
+      text-align: center;
+      font-size: 16px;
+      background-color: #1687a7;
+      color: white;
+    }
+
+    input[type=submit]:hover {
+  background-color: #45a049;
+}
+input[type=reset]:hover {
+  background-color: #cc2020;
+}
+
+input[type=submit] {
+  width: 10%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 2px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+input[type=reset] {
+  width: 10%;
+  background-color: #f12525;
+  color: white;
+  padding: 12px 2px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+}
+label {
+  color: black;
+  font-family: sans-serif;
+  font-weight: 700;
+  }
+  </style>
+  
+</head>
+
+<body>
+  <header>
+    <a name="TopOfThePage"></a>
+    <h1 id="fortitles">
+      <i> My portfolio</i>
+    </h1>
+
+    <div id="pond">
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      
+      <form style="margin-right: 60px; padding-right: 50px; ">
+        <i class="fas fa-search-plus" style="font-size: 16px; color:white;"></i>
+        
+        <input type="text" name="search" placeholder="Search" />
+      </form>
+    </div>
+
+
+  </header>
+  <main>
+    <section id="home">
+      <p style="text-align: center;">
+        Hello dear visitors, this is a web site developed by ME 🙂 <br />
+        <b> Hope you enjoy it 😉 </b>
+      </p>
+      <div id="pond-1">
+        <p>You can listen to this song while you scrolling the web site: </p>
+        <audio src="audio/Imagine Dragons - Believer.mp3" controls style="padding-left: 15px;"></audio>
+      </div>
+    </section>
+
+    <section id="about">
+      <h4>Information about Me:</h4>
+      <table id="customers">
+        <tr>
+          <th>Name</th>
+          <th>Surname</th>
+          <th>Age</th>
+          <th>Diploma</th>
+          <th>Experience</th>
+        </tr>
+        <tr>
+          <td>Safwan</td>
+          <td>Taleb</td>
+          <td>26</td>
+          <td>Electrical and Automation Engineer</td>
+          <td>Software Validaion Engineer</td>
+        </tr>
+      </table>
+      <p>
+        To know more about me, please visit my
+        <a href="https://www.linkedin.com/in/safwan-taleb/" target="_blank">
+          <b><i>Linkedin Profil</i></b></a>.
+      </p>
+    </section>
+    <section id="work">
+      <h4>My Work Experiences:</h4>
+      <div>
+        <p>
+          <b>I served as an Electrical and Electronics Engineer. </b> <br />
+          This video explain how STAR & DELTA connection works: <br />
+        </p>
+        <video src="video/Understanding STAR-DELTA Starter !.MP4" controls width="560" height="315"></video>
+      </div>
+    </section>
+
+    <section id="resume">
+      <h4>Resume:</h4>
+      <section id="pond-6">
+      <div id="pond-6">
+        
+          <p class="box">
+            Lorem ipsum dolor, sit amet consectetur adipisicing
+            elit. Possimus iure autem voluptas velit! Sunt doloribus libero odit
+            sapiente? Doloremque obcaecati minima eligendi tempora reiciendis. A
+            possimus natus mollitia nobis modi. Lorem ipsum, dolor sit ametconsectetur adipisicing elit. Ullam
+            exercitationem repellendus ipsa?
+            Ad reprehenderit voluptate quae aspernatur dolor. Quibusdam deserunt
+            atque impedit debitis saepe aperiam nobis nulla laboriosam cum
+            reprehenderit? <br> <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, nisi nam. Aspernatur, illo.
+            Quibusdam voluptate non provident tempora numquam amet fugit minus, dolorem perspiciatis animi, sequi
+            pariatur laboriosam! Voluptatem, ipsam.
+          </p>
+        </div>
+
+        <div>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/TxbE79-1OSI" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+      </div>
+    </section>
+    </section>
+  
+    <section id="contact">
+      <h4>Send us your Questions:</h4>
+      <form>
+        <label>Name</label>
+        <input type="text" placeholder="Philip Morris" /><br />
+        <label>Birthday</label>
+        <input type="date" /><br />
+        <label>Email</label>
+        <input type="email" placeholder="example@gmail.com" /><br />
+        <label>Phone</label>
+        <input type="tel" placeholder="+216xxx" /><br />
+        
+        
+        <section id="pond-2">
+        <label>Message </label>
+        
+        <textarea name="message" cols="30" rows="5" placeholder="Write your Suggestions"></textarea>
+      </section>
+
+
+        <label>Level</label>
+        <select>
+          <option value=""></option>
+          <option value="Student">Student</option>
+          <option value="JuniorDeveloper">Junior Developer</option>
+          <option value="ExperiencedDeveloper">Experienced Developer</option>
+        </select><br>
+        <label>Country</label>
+        <select>
+          <option value=""></option>
+          <option value="Canada">Canada</option>
+          <option value="France">France</option>
+          <option value="Tunisia">Tunisia</option>
+          <option value="USA">USA</option>
+          <option value="Other">Other</option>
+        </select><br>
+        <!-- <label>Submit:</label> -->
+        <input type="submit" value="Submit" />
+        <!-- <label>Reset:</label> -->
+        <input type="reset" value="Reset" />
+      </form>
+    </section>
+    <br>
+    <a href="#TopOfThePage" style="color: darkblue;">Go Back to the Top</a>
+  </main>
+
+
+  <footer>
+    <p>Thank you for visiting us.</p>
+    
+    <img src="img/functions-copyright.jpg" alt="Copyrights2021" style="width:80px;height:80px;" title="dsf">
+    <h6 style="color: darkblue;">Copyright©2021</h6>
+    
+  </footer>
+</body>
+
+</html>
